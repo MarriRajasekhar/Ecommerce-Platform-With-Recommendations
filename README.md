@@ -65,6 +65,31 @@ The system consists of:
 * Dynamic pricing boosted revenue by **~15%**
 * System performed well under heavy data loads
 
+**📸 Screenshots**
+## 📸 User Interface Screens
+### 🔹 Sign Up
+![Signup](signup.png)
+
+### 🔹 Login
+![Login](login.png)
+
+### 🔹 Product Listing
+![Products](products.png)
+
+### 🔹 Product Details
+![Product Details](product-details.png)
+
+### 🔹 Cart Page
+![Cart](cart.png)
+
+### 🔹 Checkout
+![Checkout](checkout.png)
+
+### 🔹 Orders & Recommendations
+![Orders](orders.png)
+![Recommendations](recommendations.png)
+
+
 ## 🔮 **Future Enhancements**
 * Deep learning–based recommendations
 * NLP-powered chatbot & smart search
