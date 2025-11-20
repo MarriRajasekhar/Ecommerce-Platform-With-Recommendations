@@ -67,26 +67,38 @@ The system consists of:
 
 **📸 Screenshots**
 ## 📸 User Interface Screens
+
+**Below are the main UI screens included in the platform:**
+
 ### 🔹 Sign Up
+User registration form with name, email, and password.
 ![Signup](signup.png)
 
 ### 🔹 Login
+Secure login with email and password.
 ![Login](login.png)
 
 ### 🔹 Product Listing
+Browse all available products with images, prices, and actions.
 ![Products](products.png)
 
 ### 🔹 Product Details
+Detailed product view with rating, price, and add-to-cart option.
 ![Product Details](product-details.png)
 
 ### 🔹 Cart Page
+View selected items, quantity, and total price.
 ![Cart](cart.png)
 
 ### 🔹 Checkout
+Order confirmation and payment flow.
 ![Checkout](checkout.png)
 
 ### 🔹 Orders & Recommendations
+List of all previous orders with their status.
 ![Orders](orders.png)
+
+Personalized product recommendations based on user behavior.
 ![Recommendations](recommendations.png)
 
 
