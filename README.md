@@ -148,8 +148,8 @@ POST http://localhost:5001/price
 
 ## 👨‍💻 Developed By
 
-**Marri Rajasekhar**
-**Muthyala Veera Hemanth**
+**Marri Rajasekhar,**
+**Muthyala Veera Hemanth,**
 Guided by **Dr. G. Sabeena Gnanaselvi**
 
 Just tell me!
