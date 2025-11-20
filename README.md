@@ -39,7 +39,8 @@ The system consists of:
 * Backend + Database Layer
 
 ## Architecture Diagram
-![Architecture](architecture.png)
+
+![E-commerce Architecture](Architecture%20Diagram.png)
 
 ## 🛠️ **Tech Stack**
 ### **Frontend**
