@@ -1,117 +1,156 @@
-**E-Commerce Platform with Personalized Recommendations and Dynamic Pricing**
-This project is an advanced e-commerce platform that integrates **AI-powered personalized product recommendations** and **dynamic pricing techniques** to enhance the overall shopping experience and maximize business revenue.
+# 🛒 E-Commerce Platform with Personalized Recommendations and Dynamic Pricing
 
-## 🚀 **Features**
-### **🔹 1. Personalized Recommendation System**
-* Uses collaborative & content-based filtering
-* Analyzes:
-  * User behavior
-  * Browsing history
-  * Purchase patterns
-* Suggests products tailored to each user
+An advanced e-commerce platform that integrates **AI-powered product recommendations** and **dynamic pricing** to improve user experience and increase revenue.
 
-### **🔹 2. Dynamic Pricing Engine**
-* Adjusts prices in real-time
-* Factors considered:
-  * Demand changes
-  * Competitor pricing
-  * Inventory levels
-  * Seasonal trends
-* Improves revenue by adapting price strategy continuously
+---
 
-### **🔹 3. User Profile Management**
-* Account creation & login
-* Stores user preferences
-* Delivers personalized dashboard experience
+## 🚀 Key Features
 
-### **🔹 4. Data Visualization & Analytics**
-Includes insights such as:
-* Orders per customer
-* Monthly order trends
-* Customer spending analysis
+### 🔹 Personalized Recommendations
+- Collaborative & content-based filtering  
+- Uses user browsing history, purchases & behavior  
+- Shows relevant product suggestions  
 
-## 🧠 **Architecture**
-The system consists of:
-* User Profile Manager
-* Recommendation Engine
-* Dynamic Pricing Module
-* Frontend UI
-* Backend + Database Layer
+### 🔹 Dynamic Pricing
+- Adjusts prices in real time  
+- Based on demand, stock, competitor pricing & trends  
 
-## Architecture Diagram
+### 🔹 User Management
+- Signup, login & secure authentication  
+- Personalized dashboard  
 
-![E-commerce Architecture](Architecture%20Diagram.png)
+### 🔹 Analytics & Insights
+- Monthly order distribution  
+- Customer spending analysis  
+- Orders per customer  
 
-## 🛠️ **Tech Stack**
-### **Frontend**
-* HTML, CSS, JavaScript
-* Bootstrap
+---
 
-### **Backend**
-* PHP
-* Python (ML models)
+## 🧠 Architecture Diagram
 
-### **Database**
-* MySQL
+![Architecture Diagram](Architecture%20Diagram.png)
 
-### **Tools**
-* VS Code
-* Google Colab
-* Python 3.6+
+---
 
-## 📊 **Results**
-* Personalized recommendations increased user engagement
-* Conversion rate improved by **20–30%**
-* Dynamic pricing boosted revenue by **~15%**
-* System performed well under heavy data loads
-
-**📸 Screenshots**
 ## 📸 User Interface Screens
 
-**Below are the main UI screens included in the platform:**
-
 ### 🔹 Sign Up
-User registration form with name, email, and password.
 ![Signup](signup.png)
 
 ### 🔹 Login
-Secure login with email and password.
 ![Login](login.png)
 
 ### 🔹 Product Listing
-Browse all available products with images, prices, and actions.
 ![Products](products.png)
 
 ### 🔹 Product Details
-Detailed product view with rating, price, and add-to-cart option.
 ![Product Details](product-details.png)
 
-### 🔹 Cart Page
-View selected items, quantity, and total price.
+### 🔹 Cart
 ![Cart](cart.png)
 
 ### 🔹 Checkout
-Order confirmation and payment flow.
 ![Checkout](checkout.png)
 
-### 🔹 Orders & Recommendations
-List of all previous orders with their status.
+### 🔹 Orders
 ![Orders](orders.png)
 
-Personalized product recommendations based on user behavior.
+### 🔹 Recommendations
 ![Recommendations](recommendations.png)
 
+---
 
-## 🔮 **Future Enhancements**
-* Deep learning–based recommendations
-* NLP-powered chatbot & smart search
-* AR/VR product viewing
-* Blockchain-based secured transactions
-* Integration with mobile apps
-* Sentiment analysis for user reviews
+## 📁 Folder Structure (Simple)
 
-## 👨‍💻 **Developed By**
+```
+
+📦 Project
+├── frontend/      # UI (HTML, CSS, JS, Bootstrap)
+├── backend/       # API, Routing, Business Logic
+├── ml/            # Recommendation + Pricing models
+└── README.md
+
+````
+
+---
+
+## ⚙️ Installation
+
+### 1️⃣ Clone
+```bash
+git clone https://github.com/MarriRajasekhar/Ecommerce-Platform-With-Recommendations.git
+cd Ecommerce-Platform-With-Recommendations
+````
+
+### 2️⃣ Backend Setup (Node.js)
+
+```bash
+cd backend
+npm install
+npm start
+```
+
+➡ Runs at: **[http://localhost:5000](http://localhost:5000)**
+
+### 3️⃣ ML Service (Python)
+
+```bash
+cd ml
+pip install -r requirements.txt
+python api.py
+```
+
+➡ ML API runs at: **[http://localhost:5001](http://localhost:5001)**
+
+### 4️⃣ Frontend
+
+Open directly:
+
+```
+frontend/index.html
+```
+
+OR using Vite:
+
+```bash
+cd frontend
+npm install
+npm run dev
+```
+
+➡ Frontend runs at: **[http://localhost:5173](http://localhost:5173)**
+
+---
+
+## 🔌 Important API Endpoints
+
+### ⭐ Recommendations
+
+```
+POST http://localhost:5001/recommend
+{
+  "user_id": 1
+}
+```
+
+### ⭐ Dynamic Pricing
+
+```
+POST http://localhost:5001/price
+{
+  "product_id": 21,
+  "demand": 80,
+  "stock": 40
+}
+```
+
+---
+
+## 👨‍💻 Developed By
+
 **Marri Rajasekhar**
 **Muthyala Veera Hemanth**
-Under the guidance of **Dr. G. Sabeena Gnanaselvi**
+Guided by **Dr. G. Sabeena Gnanaselvi**
 
+Just tell me!
+```
